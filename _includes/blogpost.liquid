@@ -7,15 +7,19 @@
     <meta name="description" content="{{ title }}" />
     <title>{{ title }}</title>
     <link rel="stylesheet" href="../../styles/blogpost.css" />
-    <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ siteMeta.author.name }}" />
+    <link
+      rel="alternate"
+      href="/feed.xml"
+      type="application/atom+xml"
+      title="{{ siteMeta.author.name }}" />
   </head>
   <body>
     <div class="container post-container">
-      <h1>{{ title }}</h1>
-      <div class="content">{{ content }}</div>
       <div class="back-link">
         <a href="/">← Back</a>
       </div>
+      <h1>{{ title }}</h1>
+      <div class="content">{{ content }}</div>
     </div>
   </body>
 </html>

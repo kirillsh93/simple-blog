@@ -1,8 +1,8 @@
 ---
 layout: homepage.liquid
-title: Horsin' Around
+title: Simple Blog
 ---
 
-# Welcome to Hollywoo
+# Welcome to Simple Blog
 
-Hello. I am BoJack. Horseman, obviously
+Here I post somethings about Web Development.
